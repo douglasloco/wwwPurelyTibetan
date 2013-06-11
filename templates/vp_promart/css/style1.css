@@ -27,7 +27,8 @@ a, #footer a:hover, #footer a:focus, #bottom a:hover, #bottom a:focus, h1 a:hove
 	background:url(../images/style-1/scroll-top.png) no-repeat 50% 50% transparent;
 }
 #overall {
-	background:transparent url(../images/style-1/overall_bg.png) 0 0 fixed;
+	background:transparent url(../images/style-1/background.jpg) 0 0 fixed;
+    background-size: 100%;
 }
 
 ul.controls > li > a, #login-form li > a {
