@@ -1,0 +1,31 @@
+/*------------------------------------------------------------------------------------------------------------
+# VP ProMart! Joomla 2.5 Template for VirtueMart 2.0 Ver. 1.0.0
+# ------------------------------------------------------------------------------------------------------------
+# Copyright (C) 2012 VirtuePlanet Services LLP. All Rights Reserved.
+# License - GNU General Public License version 2. http://www.gnu.org/licenses/gpl-2.0.html
+# Author: VirtuePlanet Services LLP
+# Email: info@virtueplanet.com
+# Websites:  http://www.virtueplanet.com
+------------------------------------------------------------------------------------------------------------*/
+
+/* OFFLINE CSS
+*********************************************/
+body {color:#000; font-family:Arial,Helvetica,Sans Serif; font-size:100%; margin:0; padding:0; text-align:center;}
+img  {border:0 none;}
+.offline {
+	background:transparent url(../images/style-1/overall_bg.png) 0 0 fixed;border-top:2px solid #0087ca;
+}
+/* LAYOUT
+*********************************************/
+#frame {margin:30px auto; padding:20px;max-width:500px }
+#frame form {text-align:left;}
+
+/* class styles */
+.outline {background:#fbfbfb; border:1px solid #eee; padding:2px;}
+.offline-logo {
+	margin:10px 5px 30px 5px;
+}
+.offline-message{
+	margin-bottom:30px;
+}
+

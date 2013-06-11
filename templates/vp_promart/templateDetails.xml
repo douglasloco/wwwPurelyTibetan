@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" method="upgrade">	
+	<name>VP_ProMart</name>
+	<creationDate>2012-09-17</creationDate>
+	<author>VirtuePlanet Services LLP</author>
+	<copyright>Copyright © 2012 VirtuePlanet Services LLP</copyright>
+	<authorEmail>info@virtueplanet.com</authorEmail>
+	<authorUrl>http://www.virtueplanet.com</authorUrl>
+	<version>1.0.7</version>
+	<description><![CDATA[ 
+		<link href="../templates/vp_promart/admin/admin_css.css" rel="stylesheet" type="text/css" media="all" />
+		
+			<img src="../templates/vp_promart/template_thumbnail.png" alt="VP ProMart" style="float:left;margin:0 20px 10px 0;" />
+			<h1 class="template-titile">VP ProMart</h1>
+			<p class="desc-text">VP ProMart is a fully responsive Joomla 2.5 Template for VirtueMart 2.0 Shopping Cart. This is commercial template released for VirtuePlanet Club Members.</p>
+			<p class="desc-text">Please refer to the <strong>Installation Guide</strong> availble under the Download section of the site for detailed installation and configuration process of this template. If you need any support please contact us through our <a href="http://www.virtueplanet.com/forum">Support Forum</a>.</p>
+			<p class="copy-text">© 2012 VirtuePlanet Services LLP. All Rights Reserved. <a href="http://www.virtueplanet.com">VirtuePlanet.com</a></p>
+			
+	]]></description>
+	
+	<files>
+		<folder>admin</folder>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>head</folder>		
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>apple-touch-icon-57x57.png</filename>
+		<filename>apple-touch-icon-72x72.png</filename>
+		<filename>apple-touch-icon-114x114.png</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>modal.php</filename>
+		<filename>offline.php</filename>
+		<filename>quickview.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="de-DE">languages/de-DE.tpl_vp_promart.ini</language>
+		<language tag="en-GB">languages/en-GB.tpl_vp_promart.ini</language>
+		<language tag="es-ES">languages/es-ES.tpl_vp_promart.ini</language>
+		<language tag="fr-FR">languages/fr-FR.tpl_vp_promart.ini</language>
+		<language tag="it-IT">languages/it-IT.tpl_vp_promart.ini</language>
+		<language tag="pt-BR">languages/pt-BR.tpl_vp_promart.ini</language>
+		<language tag="th-TH">languages/th-TH.tpl_vp_promart.ini</language>
+		<language tag="overrides">languages/en-GB.tpl_vp_promart.ini</language>
+	</languages>
+	
+	<positions>
+		<position>top-menu</position>
+		<position>currency</position>
+		<position>language</position>
+		<position>mini-cart</position>
+		<position>menu</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>top</position>
+		<position>breadcrumbs</position>
+		<position>left</position>
+		<position>main-top</position>
+		<position>main-bottom</position>
+		<position>right</position>
+		<position>bottom-1</position>
+		<position>bottom</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	
+	<config><!-- no need to change -->
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="Template Style" type="spacer" hr="false" />
+				<field type="spacer" hr="true" />			
+	    	<field name="style" type="list" default="1" label="TPL_VP_PROMART_SELECT_TEMPLATE_STYLE" description="TPL_VP_PROMART_SELECT_TEMPLATE_STYLE_DESC">
+            <option value="1">Blue</option>
+            <option value="2">Pink</option>
+            <option value="3">Green</option>
+            <option value="4">Turquoise</option>
+						<option value="5">Light Pink</option>
+						<option value="6">Orange</option>
+				</field>
+
+				<field name="TPL_VP_PROMART_LOGO" type="spacer" hr="false" />
+				<field type="spacer" hr="true" />
+				<field name="logo" type="media" default="Default" label="TPL_VP_PROMART_LOGO_IMAGE" description="TPL_VP_PROMART_LOGO_IMAGE_DESC">     	       
+				</field>
+				
+				<field name="TPL_VP_PROMART_TEMPLATE_BG" type="spacer" hr="false" />
+				<field type="spacer" hr="true" />
+				<field name="template_bg" type="radio" default="0" label="TPL_VP_PROMART_TEMPLATE_BG_INUSE" description="TPL_VP_PROMART_TEMPLATE_BG_INUSE_DESC">     
+					<option value="0">TPL_VP_PROMART_DEFAULT</option>
+        	<option value="1">TPL_VP_PROMART_CUSTOM</option>				       
+				</field>
+				<field name="template_bg_css" type="text" default="#FFFFFF" label="TPL_VP_PROMART_TEMPLATE_BG_CSS" description="TPL_VP_PROMART_TEMPLATE_BG_CSS_DESC">            
+				</field>	
+												
+				<field name="TPL_VP_PROMART_SLIDESHOW_MOD" type="spacer" hr="false" />
+				<field type="spacer" hr="true" />
+				<field name="slideshow-bg" type="text" default="#FFFFFF" label="TPL_VP_PROMART_SLIDESHOW_MOD_BG" description="TPL_VP_PROMART_SLIDESHOW_MOD_BG_DESC">            
+				</field>	
+				
+				<field name="TPL_VP_PROMART_VM_OPTIONS" type="spacer" hr="false" />
+				<field type="spacer" hr="true" />
+	    	<field name="hide_mods" type="radio" default="1" label="TPL_VP_PROMART_HIDE_SIDE_MODS" description="TPL_VP_PROMART_HIDE_SIDE_MODS_DESC">
+				    <option value="1">JYES</option>
+        		<option value="0">JNO</option>
+				</field>					
+	    	<field name="show_manufacturer" type="radio" default="1" label="TPL_VP_PROMART_MF_LOGO" description="TPL_VP_PROMART_MF_LOGO_DESC">
+				 		<option value="1">JYES</option>
+        		<option value="0">JNO</option>
+				</field>		
+	    	<field name="enable_quicklook" type="radio" default="1" label="Enable Quick Look" description="Enable Quick Look button in Product Listings">
+				 		<option value="1">JYES</option>
+        		<option value="0">JNO</option>
+				</field>	
+	    	<field name="enable_cloud_zoom" type="radio" default="1" label="Enable Cloud Zoom" description="Enable Cloud Zoom feature for Product Images">
+				 		<option value="1">JYES</option>
+        		<option value="0">JNO</option>
+				</field>															
+	    	<field name="manufacturer-details" type="radio" default="1" label="TPL_VP_PROMART_MF_LOGO_LINK" description="TPL_VP_PROMART_MF_LOGO_LINK_DESC">
+            <option value="1">JYES</option>
+						<option value="0">JNO</option>              
+				</field>	
+	    	<field name="quantity-selector" type="radio" default="0" label="TPL_VP_PROMART_QTY_SELECTOR" description="TPL_VP_PROMART_QTY_SELECTOR_DESC">
+            <option value="1">JYES</option>
+						<option value="0">JNO</option>              
+				</field>	
+	    	<field name="social-buttons" type="radio" default="1" label="TPL_VP_PROMART_SOCIAL BUTTONS" description="TPL_VP_PROMART_SOCIAL BUTTONS_DESC">
+            <option value="1">JYES</option>
+						<option value="0">JNO</option>              
+				</field>																						
+	    	<field name="discount" type="list" default="1" label="TPL_VP_PROMART_DISCOUNT_PERCENT" description="TPL_VP_PROMART_DISCOUNT_PERCENT_DESC">
+            <option value="0">JNO</option>
+            <option value="1">TPL_VP_PROMART_DISCOUNT_BEFORE_TAX</option>
+            <option value="2">TPL_VP_PROMART_DISCOUNT_AFTER_TAX</option>
+				</field>					
+			</fieldset>
+			<fieldset name="advanced">
+	    	<field name="script_optimize" type="radio" default="0" label="Optimize JS &amp; CSS Files" description="Enable GZIP, Browser Cache, Minify and Combine CSS and JavaScript files. Disable this during development stage for easy customization.">
+            <option value="1">JYES</option>
+            <option value="0">JNO</option>
+				</field>				
+				<field name="custom_css_file" type="textarea" rows="3" cols="30" filter="raw" default="Example: templates/vp_megamart/css/custom.css" label="Add Custom CSS File" description="Add the url for your custom css file here. The new css file can be used for template customization without alerting original template styles. So your customization remain safe from any future template update." />		
+				<field name="custom_head_codes" type="textarea" rows="4" cols="30" filter="raw" default="" label="Add Custom Codes to Head" description="Add Custom codes to head of the template. You can use this field add custom meta tags or css or javascripts. These codes remain safe from any future template update." />		
+				<field name="custom_body_codes" type="textarea" rows="4" cols="30" filter="raw" default="" label="Add Custom Codes to Body" description="Add Custom Codes to Body of the template. You can use this field to add Javascript codes like Google Anayltics. These codes remain safe from any future template update." />			
+			</fieldset>			
+		</fields>
+	</config>
+	
+</extension>

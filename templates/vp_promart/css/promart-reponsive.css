@@ -1,0 +1,235 @@
+/*------------------------------------------------------------------------------------------------------------
+# VP ProMart! Joomla 2.5 Template for VirtueMart 2.0 Ver. 1.0.5
+# ------------------------------------------------------------------------------------------------------------
+# Copyright (C) 2012 VirtuePlanet Services LLP. All Rights Reserved.
+# License - GNU General Public License version 2. http://www.gnu.org/licenses/gpl-2.0.html
+# Author: VirtuePlanet Services LLP
+# Email: info@virtueplanet.com
+# Websites:  http://www.virtueplanet.com
+------------------------------------------------------------------------------------------------------------*/
+
+@charset "UTF-8";
+
+@media ( min-width : 980px) {	
+	.container {
+		width: 980px;
+	}	
+
+	.core-msg-unit .text-block {
+		height: 250px;
+	}
+	.img-odd.img-left {
+		display: none;
+		float: left;
+	}
+	
+	.img-even.img-right {
+		display: none;
+		float: left;
+	}
+	
+	.img-even.img-left {
+		display: block;
+	}
+	.top-content-area {
+		min-height:280px;
+	}	
+}
+
+@media ( min-width : 768px) and (max-width: 980px) {
+	.core-msg-unit .text-block {
+		height: 250px;
+	}
+	.img-odd.img-left {
+		display: none;
+		float: left;
+	}
+	.img-even.img-right {
+		display: none;
+		float: left;
+	}
+	
+	.img-even.img-left {
+		display: block;
+	}
+	
+	.jumbotron > .row-fluid {
+	min-height: 150px;
+	}	
+	.top-content-area {
+		min-height:280px;
+	}
+	#header .navbar-inverse .navbar-inner {
+		padding-left:20px;
+	}
+}
+
+@media ( min-width : 480px) and (max-width: 767px) {
+	.branding > .logo-link {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#header .navbar-inverse .navbar-inner {
+		padding-left:20px;
+	}
+	#bottom, #footer {
+		text-align:center;
+		padding:0 10px;
+	}
+	
+}
+
+@media ( max-width : 480px) {
+	.navbar-inner {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.vm-simple-product-slideshow.flexslider.hidden-desktop .vp-slideshow-product-details {
+		font-size:0.85em;
+		display:none;
+		-moz-transition: all .5s ease;
+		-webkit-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+	}
+	.vm-simple-product-slideshow.flexslider.hidden-desktop:hover .vp-slideshow-product-details {
+		display:block;
+	}
+	.vp-slideshow-product-title > h4 {
+		font-size:1.8em
+	}
+	.flexslider .flex-next, .flexslider .flex-prev {
+		display:none;
+	}
+	.flexslider:hover .flex-next, .flexslider:hover .flex-prev {
+		display:block;
+		-moz-transition: all .25s ease;
+		-webkit-transition: all .25s ease;
+		-o-transition: all .25s ease;
+		transition: all .25s ease;		
+	}
+	.branding > .logo-link {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#header .navbar-inverse .navbar-inner {
+		padding-left:10px;
+	}
+	#bottom, #footer {
+		text-align:center;
+		padding:0 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	body #overall {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.width-50 {
+		margin:0;
+		padding:0;
+		width:50%;
+		float:left;
+	}
+		/* Force table to not be like tables anymore */
+	table.cart-summary.table, .cart-summary.table thead, .cart-summary.table tbody, .cart-summary.table th, .cart-summary.table td, .cart-summary.table tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.cart-summary.table thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.cart-summary.table tr { border: 1px solid #ccc; }
+	
+	.cart-summary.table .blank-row {
+		border:0 none;
+		background:0 none;
+	}
+	.cart-summary.table .blank-row td {
+		border:0 none;
+		padding:0;
+		background:0 none;
+	}
+	
+	.cart-summary.table td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px dotted #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	.cart-summary.table td.sub-headings, .cart-summary.table td.coupon-form-col, .cart-summary.table td.shipping-payment-heading { 
+		/* Behave  like a "row" */
+		padding-left: 6px; 
+		text-transform:uppercase;
+		color:#333;
+	}
+	
+	.cart-summary.table td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	.cart-summary.table td.sub-headings:before, .cart-summary.table td.coupon-form-col:before { 
+		display:none;
+	}
+	.input-append input.input-ultra-mini {
+		width: 30px;
+	}
+	.cart-summary.table .col-name [class*="span"] {
+		display: block;
+		float:none
+	}
+	.cart-coupon-row .col-tax {
+		min-height:20px;
+	}
+	.cart-summary .grand-total td, .cart-summary .grand-total-p-currency td {
+		padding-top:8px;
+		padding-bottom:8px;
+		border-bottom:1px dotted #ddd;
+	}
+	.continue-cont, .checkout-cont {
+		text-align:center;
+	}
+	.continue-cont {
+		margin-bottom:15px;
+	}
+	.vm-login-panel .input-prepend {
+		display:block;
+		margin-bottom:5px;
+	}
+	.vm-login-panel .title {
+		margin-bottom:20px;
+	}
+	.vm-login-panel .username-password-recovery {
+		margin-top:10px;
+	}
+}
+@media (min-width: 767px) {
+	.table .col-name {
+		text-align:left;
+	}
+	.table .col-price, .table .col-sku, .table .col-qty {
+		text-align:center;
+	}
+	.table .col-tax, .table .col-discount, .table .col-total {
+		text-align:right;
+	}
+	.table .sub-headings {
+		text-align:right;
+	}
+}

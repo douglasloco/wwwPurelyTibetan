@@ -1,0 +1,6 @@
+.spacer .image-cont img {
+	filter:alpha(opacity=100);
+}
+.spacer .image-cont img:hover {
+	filter:alpha(opacity=60);
+}

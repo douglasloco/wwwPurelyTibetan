@@ -1,0 +1,155 @@
+/*------------------------------------------------------------------------------------------------------------
+# VP ProMart! Joomla 2.5 Template for VirtueMart 2.0 Ver. 1.0.5
+# ------------------------------------------------------------------------------------------------------------
+# Copyright (C) 2012 VirtuePlanet Services LLP. All Rights Reserved.
+# License - GNU General Public License version 2. http://www.gnu.org/licenses/gpl-2.0.html
+# Author: VirtuePlanet Services LLP
+# Email: info@virtueplanet.com
+# Websites:  http://www.virtueplanet.com
+------------------------------------------------------------------------------------------------------------*/
+.branding > .logo-link {
+	background:url(../images/style-1/logo.png) no-repeat 0 0 transparent;
+	width:271px;
+	height:100px;
+	display:block;
+	margin-bottom: 5px;
+	text-indent: -10000px;
+	text-align: left;
+}
+::selection {
+	background: #799a51;
+	color: #fff;
+}
+a, #footer a:hover, #footer a:focus, #bottom a:hover, #bottom a:focus, h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, .top-menu a:hover {
+	color:#799a51;
+}
+#scroll-top, #scroll-top:active, #scroll-top:visited, #scroll-top:link {
+	background:url(../images/style-3/scroll-top.png) no-repeat 50% 50% transparent;
+}
+#overall {
+	background:#FFFFFF url(../images/style-3/overall_bg.png) 0 0;
+}
+ul.controls > li > a, #login-form li > a {
+	background:url(../images/style-3/li-arrow-icon-set.png) no-repeat 0 2px transparent;
+	padding-left:15px;
+}
+#header .navbar .visible-desktop .nav > li > a, #header .navbar .visible-desktop .nav > li > span {
+	color:#fff;
+	-moz-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+}
+.menu.nav li.active > a, .menu.nav li.active > a:hover, .menu.nav li.active > a:focus, .menu.nav > .dropdown.active > a, .menu.nav > .dropdown.open.active > a:hover, .menu.nav > .dropdown.open.active > a:focus, .menu.nav .submenu li > a:hover, .mobile-nav li > a:hover, .mobile-nav li > a:focus, .mobile-nav li.active > a, .menu.nav li.active > span, .menu.nav li.active > span:hover, .menu.nav li.active > span:focus, .menu.nav > .dropdown.active > span, .menu.nav > .dropdown.open.active > span:hover, .menu.nav > .dropdown.open.active > span:focus, .menu.nav .submenu li > span:hover, .mobile-nav li > span:hover, .mobile-nav li > span:focus, .mobile-nav li.active > span, .branding-header-module .vm-mini-cart-module .show_cart  {
+	background:url(../images/style-3/active-nav.png) repeat-x center center #799a51;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.menu.nav > .current.active.home > a, .menu.nav > .current.active.home > a:hover, .menu.nav > .current.active.home > span, .menu.nav > .current.active.home > span:hover {
+	border-left-color:#7e9e56;
+}
+.navbar .submenu li > a:hover, .navbar .submenu li > span:hover, .navbar .submenu li.active > a, .navbar .submenu li.active > span {
+	border: 1px solid #8eba57;
+}
+.side-menu li a, .VM-menu li a, .side-menu li span {
+	background:url(../images/style-3/menu-icon-set.png) no-repeat 0 -50px transparent;
+}
+.side-menu li .menu-arrow, .VM-menu li .menu-arrow {
+	background:url(../images/style-3/menu-arrow-icon-set.png) no-repeat -4px -11px transparent;
+}
+.side-menu li.active > a, .VM-menu li.active > a, .side-menu li.active > span {
+	color: #799a51;	
+}
+
+/* VIRTUEMART STYLES */
+.price-title, .final-price, .product-discount, .product-price .PricesalesPrice, .col-total .PricesalesPrice {
+	color:#799a51;
+}
+.price-before-dicount {
+	color:#7B7A7A;
+}
+.addtocart-area .product-fields-title {
+	color:#333;	
+}
+.product-side-bar {
+	color: #808080;
+	border: 1px solid #ddd;
+}
+.product-neighbours, .back-to-category, .social-button-container, .phone-product-nav, .tabular-content-area, .customer-reviews, .product-related-products, .product-related-categories {
+	border-color:#ddd;
+}
+.tab-content, .tab-content p {
+	color:#333;
+}
+.back-to-category .product-details {
+	color:#333;
+}
+.new-field-title:hover, .sidebar-field-title:hover, .product-field-display a:hover, .orderby-displaynumber a:hover, .previous-page:hover, .next-page:hover, .back-to-category .product-details:hover, .back-to-category .product-details:focus, .ask-a-question .ask-a-question:hover {
+	color: #799a51;
+}
+.back-to-category .product-details:hover, .back-to-category .product-details:focus {
+	text-decoration:underline;
+}
+.stars-orange{background-position:0 0 !important;}
+.stars-red{background-position:0 -54px !important;}
+.stars-color, .stars-green{background-position:0 -108px !important; }
+.stars-blue{background-position:0 -162px !important;}
+.stars-purple{background-position:0 -216px !important;}
+.related-item-title {
+	color:#333;
+}
+.spacer, .product-sorting-cont, .vm-pagination {
+	background:#FAFAFA;
+	border:1px solid #e8e8e8;
+	-webkit-box-shadow: 0 3px 5px rgba(0,0,0,0.15), inset 0 0 0 1px #fff;
+	-moz-box-shadow: 0 3px 5px rgba(0,0,0,0.15), inset 0 0 0 1px #fff;
+	box-shadow: 0 3px 5px rgba(0,0,0,0.15), inset 0 0 0 1px #fff;
+}
+.spacer .image-cont {
+	border-color:#e8e8e8;
+}
+.vp-slideshow-product-price > .PricesalesPrice, .vp-slideshow-discount-percent, .vp-slideshow-product-title > h4 > span {
+	color:#799a51;
+}
+.vp-slideshow-before-discount {
+	color:#7B7A7A;
+}
+.vm-simple-product-slideshow .flex-control-paging li a.flex-active {
+	background: #799a51;
+}
+a.active img.thumbnail-image {
+	border-color:#799a51;
+}
+.visible-cart-content {
+	background:url(../images/style-3/mini-cart-bag.png) no-repeat 0 0 #282828;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color:#ebf1e4
+}
+.cart-summary .grand-total:hover, .cart-summary .grand-total:hover td {
+	background-color:#d3dfc5;
+}
+.moduletable.base > .mods {
+	background:#799a51;	
+}
+.moduletable.base > .mods .modulcontent {
+	color:#eee;
+}
+.btn-primary {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	background-color: #7c9a55;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#8db856),to(#7c9a55));
+	background-image: -webkit-linear-gradient(top,#8db856,#7c9a55);
+	background-image: -o-linear-gradient(top,#8db856,#7c9a55);
+	background-image: linear-gradient(to bottom,#8db856,#7c9a55);
+	background-image: -moz-linear-gradient(top,#8db856,#7c9a55);
+	background-repeat: repeat-x;
+	border-color: #7c9a55 #7c9a55 #6c874a;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff7c9a55',endColorstr='#ff8db856',GradientType=0);
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+	background-color:#7c9a55;
+}
